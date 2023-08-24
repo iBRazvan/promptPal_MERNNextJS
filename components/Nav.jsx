@@ -27,8 +27,8 @@ const Nav = () => {
         <Image
           src="assets/images/logo.svg"
           alt="PromptPal Logo"
-          width={30}
-          height={30}
+          width={45}
+          height={45}
           className="object-contain"
         />
         <p className="logo_text">Promptopia</p>
@@ -82,8 +82,8 @@ const Nav = () => {
           <div className="flex">
             <Image
               src={session?.user.image}
-              width={37}
-              height={37}
+              width={40}
+              height={40}
               className="rounded-full"
               alt="profile"
               onClick={() => setToggleDropdown((prev) => !prev)}
